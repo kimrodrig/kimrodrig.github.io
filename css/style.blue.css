@@ -334,6 +334,7 @@ SIDEBAR + RIGHT COLUMN
 
 .content-column-content p,
 .content-column-content li {
+
   color: #999;
 }
 
@@ -364,11 +365,14 @@ SIDEBAR + RIGHT COLUMN
 .content-column-content ul,
 
 .content-column-content ol {
-  
-  font-family: Garamond;
-  margin-bottom: 2rem;
+  text-indent:40px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: EB Garamond;
+  margin-bottom: 0;
   color: #282828;
 }
+
 
 .small-navbar {
   width: 100%;
