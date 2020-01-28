@@ -19,10 +19,14 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
 @import url('https://fonts.googleapis.com/css?family=Montserrat+Subrayada');
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
-@import url(New Yorker.ttf);
 @font-face {
-font-family: 'New Yorker';
-src: url('New Yorker.ttf');
+    font-family: 'NewYorker';
+    src: url('fonts/NewYorker.eot');
+    src: url('fonts/NewYorker.eot') format('embedded-opentype'),
+         url('fonts/NewYorker.woff2') format('woff2'),
+         url('fonts/NewYorker.woff') format('woff'),
+         url('fonts/NewYorker.ttf') format('truetype'),
+         url('fonts/NewYorker.svg#NewYorker') format('svg');
 }
 
 
@@ -203,7 +207,7 @@ SIDEBAR + RIGHT COLUMN
 .sidebar-heading {
   font-size: 2.5rem;
   letter-spacing: 4px;
-  font-family: "New Yorker";
+  font-family: "NewYorker";
 }
 
 .sidebar-heading a {
@@ -226,7 +230,7 @@ SIDEBAR + RIGHT COLUMN
 }
 
 .sidebar-p {
-  font-family: New Yorker;
+  font-family: NewYorker;
   text-transform: uppercase;
   color: #999;
   font-size: 1.15rem;
@@ -351,7 +355,7 @@ SIDEBAR + RIGHT COLUMN
 }
 
 .content-column-content h1 {
-  font-family: New Yorker;
+  font-family: NewYorker;
   letter-spacing: 4px;
 }
 .content-column-content h2,
